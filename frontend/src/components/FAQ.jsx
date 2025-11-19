@@ -38,7 +38,7 @@ export const FAQ = () => {
         },
         {
             question: 'What makes EventFlowStudio different from other platforms?',
-            answer: 'We\'re specialized for DJ-Event Coordinator matching, not a generic gig marketplace. We combine mandatory verification, integrated contracts, escrow payments, and calendar management into one unified operating system. Our flat-fee model aligns our success with yours—not with transaction volume.'
+            answer: 'We\'re specialized for DJ-Event Coordinator matching, not a generic gig marketplace. We combine mandatory verification, escrow payments, and calendar management into one unified operating system. Our flat-fee model aligns our success with yours—not with transaction volume.'
         }
     ];
 
