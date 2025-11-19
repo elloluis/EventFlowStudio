@@ -7,12 +7,11 @@ export const Pricing = () => {
     const djFeatures = [
         'Unlimited profile visibility',
         'Smart matching to quality gigs',
-        'Digital contract management',
         'Secure escrow payment protection',
         'Calendar sync & availability management',
         'Performance analytics dashboard',
         'Direct communication with coordinators',
-        '24/7 platform support'
+        'Booking history & management'
     ];
 
     const coordinatorFeatures = [
