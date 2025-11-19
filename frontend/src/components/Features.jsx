@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from './ui/card';
-import { Shield, FileCheck, Calendar, Zap, Users, Lock } from 'lucide-react';
+import { Shield, Calendar, Zap, Users, Lock } from 'lucide-react';
 
 export const Features = () => {
     const features = [
