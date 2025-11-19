@@ -22,7 +22,7 @@ export const FAQ = () => {
         },
         {
             question: 'What happens if a DJ cancels or doesn\'t show up?',
-            answer: 'This is exactly why we require all transactions to go through our platform. With escrow protection and digital contracts, you have legal recourse and financial protection. Our support team investigates all disputes, and funds are only released after confirmed service delivery.'
+            answer: 'This is exactly why we require all transactions to go through our platform. With escrow protection, you have financial protection. Our support team investigates all disputes, and funds are only released after confirmed service delivery.'
         },
         {
             question: 'Can I cancel my subscription at any time?',
