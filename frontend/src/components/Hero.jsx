@@ -43,14 +43,6 @@ export const Hero = () => {
                             Get Started Today
                             <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                         </Button>
-                        <Button
-                            size="lg"
-                            variant="outline"
-                            className="border-2 border-accent/30 text-background hover:bg-accent/10 font-semibold text-base px-8 py-6"
-                        >
-                            <Play className="mr-2 h-5 w-5" />
-                            Watch Demo
-                        </Button>
                     </div>
 
                     {/* Trust Indicators */}
