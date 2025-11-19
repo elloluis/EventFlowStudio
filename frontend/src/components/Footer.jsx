@@ -31,9 +31,6 @@ export const Footer = () => {
                         {/* Brand */}
                         <div className="md:col-span-2">
                             <div className="flex items-center space-x-2 mb-4">
-                                <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                                    <span className="text-primary font-bold text-xl">EF</span>
-                                </div>
                                 <span className="text-xl font-display font-bold">
                                     <span className="text-background">Event</span>
                                     <span className="text-accent">Flow</span>
@@ -42,7 +39,7 @@ export const Footer = () => {
                             </div>
                             <p className="text-muted-foreground text-sm max-w-sm leading-relaxed">
                                 The specialized marketplace connecting DJs with Event Coordinators. 
-                                Secure payments, digital contracts, and instant matching—all in one platform.
+                                Secure payments and instant matching—all in one platform.
                             </p>
                         </div>
 
