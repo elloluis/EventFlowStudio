@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card } from './ui/card';
-import { UserPlus, Search, FileSignature, CreditCard, PartyPopper } from 'lucide-react';
+import { UserPlus, Search, CreditCard, PartyPopper } from 'lucide-react';
 
 export const HowItWorks = () => {
     const steps = [
