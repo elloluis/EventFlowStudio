@@ -26,11 +26,11 @@ export const ProblemSolution = () => {
 
     const solutions = [
         'Pre-vetted talent with identity verification',
-        'Integrated digital contracts with e-signatures',
         'Secure escrow payment system',
         'Real-time calendar synchronization',
         'Smart matching algorithm',
-        'All-in-one professional tool suite'
+        'All-in-one professional tool suite',
+        'Streamlined communication platform'
     ];
 
     return (
