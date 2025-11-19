@@ -10,11 +10,6 @@ export const Features = () => {
             description: 'Every DJ undergoes identity verification and background checks, ensuring professional reliability and safety for your events.'
         },
         {
-            icon: FileCheck,
-            title: 'Digital Contracts',
-            description: 'Standardized, legally comprehensive contracts with e-signatures. Cover payment terms, performance expectations, and cancellation policies automatically.'
-        },
-        {
             icon: Lock,
             title: 'Secure Escrow Payments',
             description: 'Funds held securely until service delivery is confirmed. Protects both DJs and coordinators from financial risk and disputes.'
@@ -32,7 +27,7 @@ export const Features = () => {
         {
             icon: Users,
             title: 'Unified Platform',
-            description: 'All communication, contracts, and payments in one place. No more scattered emails, calls, or external tools—everything tracked and recorded.'
+            description: 'All communication and payments in one place. No more scattered emails, calls, or external tools—everything tracked and recorded.'
         }
     ];
 
