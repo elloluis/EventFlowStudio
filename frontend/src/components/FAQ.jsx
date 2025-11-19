@@ -33,16 +33,8 @@ export const FAQ = () => {
             answer: 'Our algorithm matches based on three core criteria: Genre expertise (matching event style with DJ specialization), Availability (real-time calendar sync), and Budget alignment (comparing coordinator budget with DJ rates). The system learns from successful bookings to improve matches over time.'
         },
         {
-            question: 'What\'s included in the digital contracts?',
-            answer: 'Our standardized contracts cover all essential elements: explicit event details (date, time, location), clear payment terms (booking vs. performance fees), equipment requirements, performance expectations, cancellation policies, and rescheduling terms. Contracts include integrated e-signatures for legal validity.'
-        },
-        {
             question: 'Is there a commission on top of the monthly fee?',
             answer: 'No. Unlike traditional booking platforms that charge 10-20% commission per transaction, EventFlowStudio operates on a flat-fee model. The $20/month is your only cost—we never take a cut of your bookings.'
-        },
-        {
-            question: 'Do you offer a free trial?',
-            answer: 'We offer a freemium tier where you can create a profile and browse opportunities for free. However, to initiate or accept bookings and access premium features (contracts, escrow, direct communication), you\'ll need an active paid subscription.'
         },
         {
             question: 'What makes EventFlowStudio different from other platforms?',
