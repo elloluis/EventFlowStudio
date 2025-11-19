@@ -46,22 +46,14 @@ export const Hero = () => {
                     </div>
 
                     {/* Trust Indicators */}
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-12 border-t border-accent/20">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-12 border-t border-accent/20 max-w-lg mx-auto">
                         <div>
-                            <div className="text-3xl font-display font-bold text-accent mb-2">$240</div>
-                            <div className="text-sm text-muted-foreground">Annual Cost</div>
+                            <div className="text-3xl font-display font-bold text-accent mb-2">$20</div>
+                            <div className="text-sm text-muted-foreground">Monthly Cost</div>
                         </div>
                         <div>
                             <div className="text-3xl font-display font-bold text-accent mb-2">100%</div>
                             <div className="text-sm text-muted-foreground">Secure Escrow</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-display font-bold text-accent mb-2">24/7</div>
-                            <div className="text-sm text-muted-foreground">Support</div>
-                        </div>
-                        <div>
-                            <div className="text-3xl font-display font-bold text-accent mb-2">0%</div>
-                            <div className="text-sm text-muted-foreground">Commission</div>
                         </div>
                     </div>
                 </div>
