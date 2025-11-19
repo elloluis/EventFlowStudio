@@ -115,10 +115,7 @@ export const Pricing = () => {
                 <div className="mt-16 text-center">
                     <Card className="inline-block p-6 bg-muted/50 border-accent/20">
                         <p className="text-foreground font-medium mb-2">
-                            <span className="text-accent font-bold">ROI Example:</span> One successful booking covers 2-5 months of subscription
-                        </p>
-                        <p className="text-sm text-muted-foreground">
-                            Average DJ event rate: $500-$1,500 | Average time saved: 10+ hours per booking
+                            <span className="text-accent font-bold">ROI Example:</span> One successful booking will get you your ideal DJ for the event
                         </p>
                     </Card>
                 </div>
