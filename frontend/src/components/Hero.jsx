@@ -31,7 +31,7 @@ export const Hero = () => {
                     {/* Subheading */}
                     <p className="text-lg sm:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed">
                         A specialized marketplace that eliminates friction in talent booking. 
-                        Secure payments, digital contracts, and instant matching—all for just $20/month.
+                        Secure payments and instant matching—all for just $20/month.
                     </p>
 
                     {/* CTA Buttons */}
