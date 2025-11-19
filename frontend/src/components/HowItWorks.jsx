@@ -19,25 +19,18 @@ export const HowItWorks = () => {
             number: '02'
         },
         {
-            icon: FileSignature,
-            title: 'Sign Contract',
-            djDescription: 'Review and sign the digital contract with clear terms, payment schedule, and expectations.',
-            coordinatorDescription: 'Review DJ proposals and finalize the booking with our standardized digital contracts.',
-            number: '03'
-        },
-        {
             icon: CreditCard,
             title: 'Secure Payment',
             djDescription: 'Payment is held in escrow and released to you after successful event delivery.',
             coordinatorDescription: 'Your payment is held securely in escrow until the DJ delivers the service.',
-            number: '04'
+            number: '03'
         },
         {
             icon: PartyPopper,
             title: 'Event Success',
             djDescription: 'Show up, perform, and build your reputation with reviews and ratings.',
             coordinatorDescription: 'Enjoy a stress-free event with professional talent and leave a review.',
-            number: '05'
+            number: '04'
         }
     ];
 
