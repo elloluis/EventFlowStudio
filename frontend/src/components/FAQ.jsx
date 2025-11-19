@@ -10,7 +10,7 @@ export const FAQ = () => {
     const faqs = [
         {
             question: 'How does the $20/month subscription work?',
-            answer: 'Both DJs and Event Coordinators pay a flat $20 monthly fee for unlimited platform access. This includes all features: matching, contracts, escrow payments, and communication tools. We do not take any commission from your bookings—only the monthly subscription.'
+            answer: 'Both DJs and Event Coordinators pay a flat $20 monthly fee for unlimited platform access. This includes all features: matching, escrow payments, and communication tools. We do not take any commission from your bookings—only the monthly subscription.'
         },
         {
             question: 'What is the escrow payment system?',
