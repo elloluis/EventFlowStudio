@@ -18,11 +18,10 @@ export const Pricing = () => {
         'Access to pre-vetted DJ talent pool',
         'Unlimited event postings',
         'Smart matching algorithm',
-        'Standardized digital contracts',
         'Secure escrow payment system',
         'Real-time availability checking',
         'Booking history & management',
-        'Priority customer support'
+        'Direct communication with DJs'
     ];
 
     return (
