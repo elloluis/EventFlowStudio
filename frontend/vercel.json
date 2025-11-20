@@ -1,7 +1,6 @@
 {
-  "buildCommand": "CI=false yarn build",
+  "buildCommand": "yarn install && CI=false yarn build",
   "outputDirectory": "build",
-  "devCommand": "yarn start",
   "installCommand": "yarn install",
   "rewrites": [
     {
