@@ -118,7 +118,7 @@ export const Footer = () => {
                         </div>
                         <div className="text-center">
                             <p className="text-sm text-muted-foreground">
-                                Contact us: <a href="mailto:support@eventflowstudio.com" className="text-accent hover:text-accent/80 transition-colors">support@eventflowstudio.com</a>
+                                contact <a href="mailto:support@eventflowstudio.com" className="text-accent hover:text-accent/80 transition-colors">support@eventflowstudio.com</a>
                             </p>
                         </div>
                     </div>
