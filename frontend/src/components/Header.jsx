@@ -69,16 +69,6 @@ export const Header = () => {
                         </button>
                     </nav>
 
-                    {/* CTA Button */}
-                    <div className="hidden md:block">
-                        <Button
-                            variant="default"
-                            className="bg-accent text-primary hover:bg-accent/90 font-semibold glow-box transition-smooth"
-                        >
-                            Get Started
-                        </Button>
-                    </div>
-
                     {/* Mobile Menu Button */}
                     <button
                         className="md:hidden text-background"
