@@ -33,8 +33,8 @@ export const FAQ = () => {
             answer: 'Our algorithm matches based on three core criteria: Genre expertise (matching event style with DJ specialization), Availability (real-time calendar sync), and Budget alignment (comparing coordinator budget with DJ rates). The system learns from successful bookings to improve matches over time.'
         },
         {
-            question: 'Is there a commission on top of the monthly fee?',
-            answer: 'No. Unlike traditional booking platforms that charge 10-20% commission per transaction, EventFlowStudio operates on a flat-fee model. The $20/month is your only cost—we never take a cut of your bookings.'
+            question: 'Are there any additional fees besides the monthly subscription?',
+            answer: 'Yes, there is a $5 convenience fee per booking to cover payment processing and platform maintenance. Unlike traditional booking platforms that charge 10-20% commission, our $20/month subscription plus $5 convenience fee keeps costs predictable and affordable.'
         },
         {
             question: 'What makes EventFlowStudio different from other platforms?',
