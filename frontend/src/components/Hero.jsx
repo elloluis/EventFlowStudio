@@ -35,22 +35,6 @@ export const Hero = () => {
                         Secure payments and instant matching—all for just $20/month.
                     </p>
 
-                    {/* CTA Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-                        <Button
-                            size="lg"
-                            onClick={() => {
-                                toast.success('Welcome to EventFlowStudio!', {
-                                    description: 'Contact us at support@eventflowstudio.com to get started with your account.',
-                                });
-                            }}
-                            className="bg-accent text-primary hover:bg-accent/90 font-semibold text-base px-8 py-6 glow-box-strong transition-smooth group"
-                        >
-                            Get Started Today
-                            <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                        </Button>
-                    </div>
-
                     {/* Trust Indicators */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-12 border-t border-accent/20 max-w-lg mx-auto">
                         <div>
