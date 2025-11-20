@@ -39,6 +39,11 @@ export const Hero = () => {
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
                         <Button
                             size="lg"
+                            onClick={() => {
+                                toast.success('Welcome to EventFlowStudio!', {
+                                    description: 'Contact us at support@eventflowstudio.com to get started with your account.',
+                                });
+                            }}
                             className="bg-accent text-primary hover:bg-accent/90 font-semibold text-base px-8 py-6 glow-box-strong transition-smooth group"
                         >
                             Get Started Today
