@@ -116,10 +116,26 @@ export const Footer = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center space-y-4">
                             <p className="text-sm text-muted-foreground">
                                 Contact us: <a href="mailto:support@eventflowstudio.com" className="text-accent hover:text-accent/80 transition-colors">support@eventflowstudio.com</a>
                             </p>
+                            <div className="flex justify-center items-center gap-4 pt-4">
+                                <a href="#" className="transition-transform hover:scale-105">
+                                    <img 
+                                        src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
+                                        alt="Download on the App Store" 
+                                        className="h-10"
+                                    />
+                                </a>
+                                <a href="#" className="transition-transform hover:scale-105">
+                                    <img 
+                                        src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                                        alt="Get it on Google Play" 
+                                        className="h-10"
+                                    />
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
