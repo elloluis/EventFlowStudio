@@ -106,12 +106,6 @@ export const Header = () => {
                             >
                                 FAQ
                             </button>
-                            <Button
-                                variant="default"
-                                className="bg-accent text-primary hover:bg-accent/90 font-semibold w-full"
-                            >
-                                Get Started
-                            </Button>
                         </nav>
                     </div>
                 )}
