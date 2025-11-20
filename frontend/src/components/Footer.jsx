@@ -14,13 +14,6 @@ export const Footer = () => {
                     <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                         Join the future of talent acquisition. Secure, professional, and efficient—for just $20/month.
                     </p>
-                    <Button
-                        size="lg"
-                        className="bg-accent text-primary hover:bg-accent/90 font-semibold text-base px-8 py-6 glow-box-strong group"
-                    >
-                        Get Started Today
-                        <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                    </Button>
                 </div>
             </div>
 
