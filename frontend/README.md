@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# EventFlowStudio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A professional marketplace website connecting DJs with Event Coordinators.
 
-## Available Scripts
+## Tech Stack
 
-In the project directory, you can run:
+- **Frontend:** React 19
+- **Styling:** Tailwind CSS + Shadcn UI
+- **Fonts:** Space Grotesk (headings) + Inter (body)
+- **Icons:** Lucide React
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Navy blue + Neon cyan professional design
+- Fully responsive (mobile + desktop)
+- Smooth scroll navigation
+- 5 core platform features
+- Pricing information ($20/month + $5 convenience fee)
+- FAQ section
+- App store download badges
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Local Development
 
-### `npm test`
+```bash
+# Install dependencies
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start development server
+yarn start
 
-### `npm run build`
+# Build for production
+yarn build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deployment
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project is configured for Vercel deployment. See `DEPLOYMENT_GUIDE.md` for detailed instructions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+frontend/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── ui/          # Shadcn UI components
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Features.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── FAQ.jsx
+│   │   └── Footer.jsx
+│   ├── App.js
+│   ├── index.css        # Design system tokens
+│   └── index.js
+├── package.json
+├── tailwind.config.js
+└── vercel.json          # Vercel configuration
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Design System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The website uses a custom design system with:
+- HSL color tokens for navy blue and neon cyan
+- Consistent spacing and typography
+- Custom gradients and glow effects
+- Smooth transitions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+support@eventflowstudio.com
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2024 EventFlowStudio. All rights reserved.
