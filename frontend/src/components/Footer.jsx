@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from './ui/button';
-import { ArrowRight } from 'lucide-react';
 
 export const Footer = () => {
     return (
