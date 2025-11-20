@@ -99,20 +99,27 @@ export const Footer = () => {
                     </div>
 
                     {/* Bottom Bar */}
-                    <div className="pt-8 border-t border-accent/20 flex flex-col sm:flex-row justify-between items-center gap-4">
-                        <p className="text-sm text-muted-foreground">
-                            © 2024 EventFlowStudio. All rights reserved.
-                        </p>
-                        <div className="flex items-center gap-6">
-                            <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
-                                Twitter
-                            </a>
-                            <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
-                                LinkedIn
-                            </a>
-                            <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
-                                Instagram
-                            </a>
+                    <div className="pt-8 border-t border-accent/20">
+                        <div className="flex flex-col sm:flex-row justify-between items-center gap-4 mb-4">
+                            <p className="text-sm text-muted-foreground">
+                                © 2024 EventFlowStudio. All rights reserved.
+                            </p>
+                            <div className="flex items-center gap-6">
+                                <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
+                                    Twitter
+                                </a>
+                                <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
+                                    LinkedIn
+                                </a>
+                                <a href="#" className="text-muted-foreground hover:text-accent transition-colors text-sm">
+                                    Instagram
+                                </a>
+                            </div>
+                        </div>
+                        <div className="text-center">
+                            <p className="text-sm text-muted-foreground">
+                                Contact us: <a href="mailto:support@eventflowstudio.com" className="text-accent hover:text-accent/80 transition-colors">support@eventflowstudio.com</a>
+                            </p>
                         </div>
                     </div>
                 </div>
